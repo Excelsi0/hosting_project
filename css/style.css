@@ -1,0 +1,465 @@
+.main {
+  background: url("../image/bg/bg_header.jpg") center center/cover no-repeat;
+  padding-bottom: 13.7rem;
+}
+.main .header {
+  padding: 4.6rem 0;
+}
+.main .header .menu {
+  padding: 0;
+}
+.main .header .menu ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 2.8rem;
+}
+.main .header .menu ul .menu__link {
+  list-style-type: none;
+}
+.main .header .menu ul .menu__link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.main .header .menu ul .menu__link a:hover {
+  color: #E84C3D;
+}
+.main .header .header__btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0.1rem solid #E84C3D;
+  padding: 1.4rem 3.2rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.main .header .header__btn:hover {
+  color: #E84C3D;
+}
+.main h1 {
+  margin-top: 5rem;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 100;
+  text-align: center;
+}
+.main__text {
+  margin: 6.5rem auto 0;
+  text-align: center;
+}
+.main__text .text {
+  margin-top: 2.8rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.main .btn {
+  margin: 4.7rem auto;
+  width: 21.9rem;
+}
+.main__link {
+  display: block;
+  margin: 2.2rem auto;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+}
+.main__link:hover {
+  color: #E84C3D;
+}
+
+.advantages {
+  background-color: #2B2F37;
+  text-align: center;
+}
+.advantages__hover {
+  transition: background 0.2s linear;
+}
+.advantages__hover:hover {
+  background-color: #272b32;
+}
+.advantages__block {
+  margin: 0 auto;
+  max-width: 30rem;
+  padding: 5.8rem 0 6.6rem;
+}
+.advantages__descr {
+  margin-top: 4.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+.advantages__text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #6F798C;
+}
+.advantages__link {
+  display: block;
+  margin-top: 2.8rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #E84C3D;
+}
+
+.search {
+  padding: 3.8rem 0 6rem;
+}
+.search .text__page {
+  display: block;
+  margin: 3rem auto 0;
+  max-width: 59.4rem;
+}
+.search__input {
+  display: flex;
+  max-width: 64rem;
+  margin: 3.3rem auto 0;
+  padding: 1rem;
+  background: linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 2rem) calc(100% - 2rem) no-repeat, linear-gradient(90deg, transparent 0%, #933b4a 0%, #35334f 100%);
+}
+.search__input input {
+  width: 100%;
+  height: 5rem;
+  border: 0;
+  padding-left: 1rem;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+.search__input input::-moz-placeholder {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+.search__input input::placeholder {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+.search__input .btn {
+  width: 14rem;
+}
+.search__margin__block {
+  margin-top: 4rem;
+}
+.search__margin__block .flex__box {
+  display: flex;
+  align-items: flex-start;
+}
+.search__margin__block .flex__box img {
+  margin: 0 3rem 0 1rem;
+}
+.search__margin__block .flex__box .descr {
+  max-width: 22.5rem;
+}
+.search__margin__block .flex__box .descr__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.search__margin__block .flex__box .descr__text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #5E5E5E;
+}
+
+.features {
+  background-color: #2C3039;
+  padding: 6.7rem 0 6.2rem;
+}
+.features .title__page {
+  color: #fff;
+}
+.features__margin__block {
+  margin-top: 4.8rem;
+}
+.features__descr__block {
+  display: flex;
+  align-items: flex-start;
+  gap: 3.7rem;
+  -moz-column-gap: 3.7rem;
+       column-gap: 3.7rem;
+}
+.features__descr__block .descr {
+  max-width: 22.2rem;
+}
+.features__descr__block .descr__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+.features__descr__block .descr__text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #98A3A3;
+}
+.features__margin__block__two {
+  margin-top: 6rem;
+}
+
+.plan {
+  padding: 6.7rem 0 5rem;
+}
+.plan .text__page {
+  margin-top: 7rem;
+}
+.plan .block__flex {
+  margin-top: 6.4rem;
+}
+.plan__card {
+  max-width: 30rem;
+  border: 0.01rem solid #7D7D7D;
+  padding: 2.6rem 2rem 2rem;
+  margin: 0 auto;
+}
+.plan__card__descr {
+  border-bottom: 0.01rem solid #7D7D7D;
+  padding-bottom: 2rem;
+}
+.plan__card__descr .title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2C3039;
+  text-align: center;
+}
+.plan__card__descr .text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #2C3039;
+  text-align: center;
+}
+.plan__card .price {
+  margin: 2rem 0 0 1.6rem;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #000;
+}
+.plan__card .price span {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.plan__card .block__func {
+  margin: 2.2rem auto 0;
+}
+.plan__card .block__func .func {
+  margin-top: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #5E5E5E;
+  text-align: center;
+}
+.plan__card .block__func .func span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2C3039;
+}
+.plan__card .btn {
+  width: 100%;
+  background-color: #2C3039;
+  margin-top: 6.8rem;
+}
+.plan .plan__center {
+  padding: 0 0 2rem;
+  background-color: #2C3039;
+}
+.plan .plan__center .plan__card__descr {
+  padding: 2.6rem 0 2rem;
+  background-color: #E84C3D;
+}
+.plan .plan__center .plan__card__descr .title {
+  color: #fff;
+}
+.plan .plan__center .plan__card__descr .text {
+  color: #fff;
+}
+.plan .plan__center .price {
+  margin-left: 6.2rem;
+  color: #fff;
+}
+.plan .plan__center .block__func .func {
+  color: #fff;
+}
+.plan .plan__center .block__func .func span {
+  color: #fff;
+}
+.plan .plan__center .btn {
+  background: #E84C3D;
+  max-width: 22rem;
+  margin: 6.8rem auto 0;
+}
+.plan__text {
+  max-width: 34rem;
+  margin: 3.1rem auto;
+  font-size: 1.6rem;
+  font-weight: 40rem;
+  text-align: center;
+}
+.plan__text__red {
+  font-size: 1.6rem;
+  font-weight: 40rem;
+  text-align: centers;
+  color: #E84C3D;
+}
+
+.testimonials {
+  padding: 5rem 0 7rem;
+}
+.testimonials .text__page {
+  margin: 2rem auto 0;
+  max-width: 78rem;
+}
+.testimonials .apostrophe {
+  display: block;
+  margin: 5.5rem auto 0;
+}
+.testimonials .margin__text {
+  margin-top: 3.8rem;
+}
+.testimonials .avatar {
+  display: block;
+  margin: 2.2rem auto;
+}
+.testimonials .name {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #5E5E5E;
+  margin-top: 3.2rem;
+  text-align: center;
+}
+
+.company__blog {
+  padding: 7rem 0 6rem;
+}
+.company__blog .title {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.company__blog .margin__block {
+  margin-top: 3rem;
+}
+.company__blog .info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4.6rem;
+  margin-top: 1.4rem;
+}
+.company__blog .info time {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #5E5E5E;
+}
+.company__blog .info .coments {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.company__blog .info .coments span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.company__blog .info .like {
+  font-size: 1.2rem;
+  font-weight: 700;
+  position: relative;
+}
+.company__blog .info .like::before {
+  content: url(../image/elements/like.svg);
+  position: absolute;
+  left: -2rem;
+}
+.company__blog .text {
+  margin-top: 1.4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.company__blog .text span {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #E84C3D;
+}
+.company__blog .btn {
+  display: block;
+  margin: 5.6rem auto 0;
+  width: 21.8rem;
+  background-color: #2C3039;
+}
+
+.maps {
+  background: url(../image/bg/bg_foot.jpg) center center/cover no-repeat;
+  padding: 17.9rem;
+  min-height: 54.8rem;
+}
+.maps__title {
+  margin: 0 auto;
+  max-width: 44rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.maps__info {
+  margin: 3.6rem auto 0;
+  max-width: 44rem;
+}
+.maps__text {
+  max-width: 32rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.maps__data {
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.maps__tel {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.maps__tel a {
+  margin-left: 4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #E84C3D;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.btn {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: 0;
+  background-color: #E84C3D;
+  color: #fff;
+  height: 5rem;
+  transition: transform 0.1s linear;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+.btn:active {
+  transform: scale(1);
+}
+
+.title__page {
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.text__page {
+  font-size: 1.6rem;
+  font-weight: 40rem;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

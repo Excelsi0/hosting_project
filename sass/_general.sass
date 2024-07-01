@@ -1,0 +1,344 @@
+.main
+    background: url("../image/bg/bg_header.jpg") center center / cover no-repeat
+    padding-bottom: 13.7rem
+    .header
+        // display: flex
+        // justify-content: space-between
+        // align-items: center
+
+        padding: 4.6rem 0
+        .menu
+            padding: 0
+            ul
+                display: flex
+                justify-content: center
+                padding: 0
+                gap: 2.8rem
+                .menu__link
+                    list-style-type: none
+                    a
+                        text-decoration: none
+                        color: #fff
+                        font-size: 1.2rem
+                        font-weight: 400
+                        &:hover
+                            color: $color__one
+        .header__btn
+            background-color: rgba(0, 0, 0, 0)
+            border: 0.1rem solid $color__one
+            padding: 1.4rem 3.2rem
+
+            color: #fff
+            font-size: 1.2rem
+            font-weight: 400
+            &:hover
+                color: $color__one
+    h1
+        margin-top: 5rem
+        color: #fff
+        font-size: 4rem
+        font-weight: 100
+        text-align: center
+
+    &__text
+        margin: 6.5rem auto 0
+        text-align: center
+        .text
+            margin-top: 2.8rem
+            color: #fff
+            font-size: 1.6rem
+            font-weight: 400
+    .btn
+        margin: 4.7rem auto
+        width: 21.9rem
+    &__link
+        display: block
+        margin: 2.2rem auto
+        color: #fff
+        font-size: 1.2rem
+        font-weight: 400
+        text-align: center
+        &:hover
+            color: $color__one
+
+.advantages
+    background-color: #2B2F37
+    text-align: center
+    &__hover
+        transition: background .2s linear
+        &:hover
+            background-color: #272b32
+    &__block
+        margin: 0 auto
+        max-width: 30rem
+        padding: 5.8rem 0 6.6rem
+    &__descr
+        margin-top: 4.2rem
+        font-size: 1.8rem
+        font-weight: 700
+        color: #fff
+    &__text
+        font-size: 1.6rem
+        font-weight: 400
+        color: #6F798C
+    &__link
+        display: block
+        margin-top: 2.8rem
+        font-size: 1.2rem
+        font-weight: 700
+        color: $color__one
+
+.search
+    padding: 3.8rem 0 6rem
+    .text__page
+        display: block
+        margin: 3rem auto 0
+        max-width: 59.4rem
+    &__input
+        display: flex
+        max-width: 64rem
+
+        margin: 3.3rem auto 0
+        padding: 1rem
+
+        background: linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 2rem) calc(100% - 2rem) no-repeat, linear-gradient(90deg, transparent 0%, #933b4a 0%, #35334f 100%)
+        input
+            width: 100%
+            height: 5rem
+            border: 0
+            padding-left: 1rem
+            outline: none
+
+            font-family: "Roboto", sans-serif
+
+            &::placeholder
+                font-size: 1.6rem
+                font-weight: 400
+                color: #8A8A8A
+        .btn
+            width: 14rem
+
+    &__margin__block
+        margin-top: 4rem
+        .flex__box
+            display: flex
+            align-items: flex-start
+            // margin-top: 20px для медиа 767px
+            img
+                margin: 0 3rem 0 1rem
+            .descr
+                max-width: 22.5rem
+                &__title
+                    font-size: 1.4rem
+                    font-weight: 700
+                &__text
+                    font-size: 1.4rem
+                    font-weight: 400
+                    color: #5E5E5E
+
+.features
+    background-color: $color__two
+    padding: 6.7rem 0 6.2rem
+    .title__page
+        color: #fff
+    &__margin__block
+        margin-top: 4.8rem
+    &__descr__block
+        display: flex
+        align-items: flex-start
+        gap: 3.7rem
+        column-gap: 3.7rem
+
+        // margin-top: 2rem для медича 767px
+        .descr
+            max-width: 22.2rem
+            &__title
+                font-size: 1.6rem
+                font-weight: 700
+                color: #fff
+            &__text
+                font-size: 1.4rem
+                font-weight: 400
+                color: #98A3A3
+    &__margin__block__two
+        margin-top: 6rem
+
+.plan
+    padding: 6.7rem 0 5rem
+    .text__page
+        margin-top: 7rem
+    .block__flex
+        margin-top: 6.4rem
+    &__card
+        max-width: 30rem
+        border: 0.01rem solid #7D7D7D
+        padding: 2.6rem 2rem 2rem
+        margin: 0 auto
+        &__descr
+            border-bottom: 0.01rem solid #7D7D7D
+            padding-bottom: 2rem
+
+            .title
+                font-size: 1.8rem
+                font-weight: 700
+                color: #2C3039
+                text-align: center
+            .text
+                font-size: 1.4rem
+                font-weight: 400
+                color: #2C3039
+                text-align: center
+        .price
+            margin: 2rem 0 0 1.6rem
+            font-size: 5rem
+            font-weight: 700
+            color: #000
+            span
+                font-size: 1.2rem
+                font-weight: 400
+        .block__func
+            margin: 2.2rem auto 0
+            .func
+                margin-top: 0.8rem
+                font-size: 1.4rem
+                font-weight: 400
+                color: #5E5E5E
+                text-align: center
+                span
+                    font-size: 1.4rem
+                    font-weight: 700
+                    color: #2C3039
+        .btn
+            width: 100%
+            background-color: #2C3039
+            margin-top: 6.8rem
+
+    .plan__center
+        padding: 0 0 2rem
+        background-color: $color__two
+        .plan__card__descr
+            padding: 2.6rem 0 2rem
+            background-color: $color__one
+            .title
+                color: #fff
+            .text
+                color: #fff
+        .price
+            margin-left: 6.2rem
+            color: #fff
+        .block__func
+            .func
+                color: #fff
+                span
+                    color: #fff
+        .btn
+            background: $color__one
+            max-width: 22rem
+            margin: 6.8rem auto 0
+    &__text
+        max-width: 34rem
+        margin: 3.1rem auto
+        font-size: 1.6rem
+        font-weight: 40rem
+        text-align: center
+        &__red
+            font-size: 1.6rem
+            font-weight: 40rem
+            text-align: centers
+            color: $color__one
+
+.testimonials
+    padding: 5rem 0 7rem
+    .text__page
+        margin: 2rem auto 0
+        max-width: 78rem
+    .apostrophe
+        display: block
+        margin: 5.5rem auto 0
+    .margin__text
+        margin-top: 3.8rem
+    .avatar
+        display: block
+        margin: 2.2rem auto
+    .name
+        font-size: 1.2rem
+        font-weight: 400
+        color: #5E5E5E
+        margin-top: 3.2rem
+        text-align: center
+
+.company__blog
+    padding: 7rem 0 6rem
+    .title
+        font-size: 1.8rem
+        font-weight: 400
+    .margin__block
+        margin-top: 3rem
+    .info
+        display: flex
+        justify-content: start
+        align-items: center
+        gap: 4.6rem
+        margin-top: 1.4rem
+        time
+            font-size: 1.2rem
+            font-weight: 400
+            color: #5E5E5E
+        .coments
+            font-size: 1.2rem
+            font-weight: 400
+            span
+                font-size: 1.2rem
+                font-weight: 700
+        .like
+            font-size: 1.2rem
+            font-weight: 700
+            position: relative
+            &::before
+                content: url(../image/elements/like.svg)
+                position: absolute
+                left: -2rem
+    .text
+        margin-top: 1.4rem
+        font-size: 1.4rem
+        font-weight: 400
+        span
+            font-size: 1.4rem
+            font-weight: 400
+            color: $color__one
+    .btn
+        display: block
+        margin: 5.6rem auto 0
+        width: 21.8rem
+        background-color: $color__two
+
+.maps
+    background: url(../image/bg/bg_foot.jpg) center center / cover no-repeat
+    padding: 17.9rem
+    min-height: 54.8rem
+    &__title
+        margin: 0 auto
+        max-width: 44rem
+        font-size: 3rem
+        font-weight: 300
+
+    &__info
+        margin: 3.6rem auto 0
+        max-width: 44rem
+    &__text
+        max-width: 32rem
+
+        font-size: 1.8rem
+        font-weight: 400
+    &__data
+        margin-top: 5rem
+        font-size: 1.2rem
+        font-weight: 400
+    &__tel
+        font-size: 1.6rem
+        font-weight: 400
+        a
+            margin-left: 4rem
+            font-size: 1.6rem
+            font-weight: 400
+            color: $color__one
