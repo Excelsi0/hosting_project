@@ -431,6 +431,11 @@
 }
 .subfooter .block__input {
   max-width: 34.7rem;
+}
+.subfooter .block__input input {
+  height: 4.1rem;
+}
+.subfooter .block__input .btn {
   height: 4.1rem;
 }
 
